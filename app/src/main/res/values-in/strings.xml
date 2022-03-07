@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Animers</string>
+    <string name="start_searching_first">Mulai Mencari</string>
+    <string name="search">Cari</string>
+    <string name="image_start_search">Gambar mulai cari</string>
+    <string name="not_found">Tidak ditemukan.\n Coba kata kunci yang lain</string>
+    <string name="image_not_found">Gambar tidak ditemukan</string>
+    <string name="search_hint">Cari Anime</string>
+    <string name="image_splash">Gambar Splash</string>
+    <string name="discover">Temukan</string>
+    <string name="settings">Pengaturan</string>
+    <string name="favorite">Favorit</string>
+    <string name="image_cover">Gambar Cover</string>
+    <string name="jp_title">Judul JP</string>
+    <string name="favorite_button">Tombol Favorit</string>
+    <string name="anime_title_en_jp">Judul Anime en_jp</string>
+    <string name="anime_title_ja_jp">Judul Anime ja_jp</string>
+    <string name="popularity_rank">#%d</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, orci nec accumsan scelerisque, lorem turpis feugiat purus, id fermentum quam nisi vitae eros. Nulla quis tristique sapien. Pellentesque id dignissim magna. Nulla tincidunt fringilla sapien non fringilla. Nulla tristique metus vel lorem varius congue. Mauris id sapien diam. Maecenas sed enim pharetra, interdum nisl eu, vestibulum leo. Curabitur sit amet tincidunt mauris. Donec malesuada massa nec mi sodales, id elementum nibh vulputate. Donec turpis risus, sollicitudin ac malesuada nec, porttitor nec eros. Nulla nec lacinia arcu. Nullam bibendum nunc orci, a euismod ipsum finibus placerat. Aliquam erat volutpat. Sed vulputate nulla a enim lacinia ornare. Nullam sodales dictum cursus. Pellentesque pellentesque lacinia nulla. Aenean sed nulla ac neque tincidunt scelerisque. Curabitur laoreet metus eu pellentesque imperdiet. Donec vitae diam tortor. Vivamus imperdiet lectus aliquet lacus commodo dapibus. Ut eget dignissim nibh, ultrices rhoncus enim. Curabitur pretium porttitor nisi vitae tincidunt. Fusce dolor ipsum, vehicula sit amet accumsan a, iaculis et nunc.</string>
+    <string name="user_count">Jumlah User</string>
+    <string name="favorite_count">Jumlah Favorit</string>
+    <string name="rating">Rating</string>
+    <string name="status">Status</string>
+    <string name="empty_favorite">Favorit kosong.\nCoba tambahkan favorit di menu temukan</string>
+    <string name="general">Umum</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="about">Tentang</string>
+    <string name="app_version">Version 1.0 - Dibuat oleh alwanfauzy</string>
+    <string name="episode_count">%d Episode(s)</string>
+    <string name="app_api">API - Kitsu API</string>
+    <string name="title_favorite">Favorit</string>
+</resources>

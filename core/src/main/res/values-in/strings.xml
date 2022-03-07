@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_poster">Gambar Poster</string>
+    <string name="empty_data">Data Kosong</string>
+    <string name="anime_title">Judul Anime</string>
+</resources>

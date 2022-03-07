@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Animers</string>
+    <string name="start_searching_first">Start Searching First</string>
+    <string name="search">Search</string>
+    <string name="image_start_search">Image start search</string>
+    <string name="not_found">Not found.\n Try different keywords</string>
+    <string name="image_not_found">Image not found</string>
+    <string name="search_hint">Search Anime</string>
+    <string name="image_splash">Image Splash</string>
+    <string name="discover">Discover</string>
+    <string name="settings">Settings</string>
+    <string name="favorite">Favorite</string>
+    <string name="image_cover">Image Cover</string>
+    <string name="jp_title">JP Title</string>
+    <string name="favorite_button">Favorite Button</string>
+    <string name="anime_title_en_jp">Anime Title en_jp</string>
+    <string name="anime_title_ja_jp">Anime Title ja_jp</string>
+    <string name="popularity_rank">#%d</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, orci nec accumsan scelerisque, lorem turpis feugiat purus, id fermentum quam nisi vitae eros. Nulla quis tristique sapien. Pellentesque id dignissim magna. Nulla tincidunt fringilla sapien non fringilla. Nulla tristique metus vel lorem varius congue. Mauris id sapien diam. Maecenas sed enim pharetra, interdum nisl eu, vestibulum leo. Curabitur sit amet tincidunt mauris. Donec malesuada massa nec mi sodales, id elementum nibh vulputate. Donec turpis risus, sollicitudin ac malesuada nec, porttitor nec eros. Nulla nec lacinia arcu. Nullam bibendum nunc orci, a euismod ipsum finibus placerat. Aliquam erat volutpat. Sed vulputate nulla a enim lacinia ornare. Nullam sodales dictum cursus. Pellentesque pellentesque lacinia nulla. Aenean sed nulla ac neque tincidunt scelerisque. Curabitur laoreet metus eu pellentesque imperdiet. Donec vitae diam tortor. Vivamus imperdiet lectus aliquet lacus commodo dapibus. Ut eget dignissim nibh, ultrices rhoncus enim. Curabitur pretium porttitor nisi vitae tincidunt. Fusce dolor ipsum, vehicula sit amet accumsan a, iaculis et nunc.</string>
+    <string name="user_count">User Count</string>
+    <string name="favorite_count">Favorite Count</string>
+    <string name="rating">Rating</string>
+    <string name="status">Status</string>
+    <string name="empty_favorite">Empty Favorite.\nTry add favorite from discover</string>
+    <string name="general">General</string>
+    <string name="change_language">Change Language</string>
+    <string name="about">About</string>
+    <string name="app_version">Version 1.0 - Created by alwanfauzy</string>
+    <string name="episode_count">%d Episode(s)</string>
+    <string name="app_api">API - Kitsu API</string>
+    <string name="title_favorite">Favorite</string>
+</resources>

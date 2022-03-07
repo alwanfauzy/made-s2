@@ -1,0 +1,5 @@
+<resources>
+    <string name="image_poster">Image Poster</string>
+    <string name="empty_data">Empty Data</string>
+    <string name="anime_title">Anime Title</string>
+</resources>

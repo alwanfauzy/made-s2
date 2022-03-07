@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_discover"
+        android:title="@string/discover"
+        android:icon="@drawable/ic_discover"
+        app:cnb_iconColor="@color/ic_discover"/>
+    <item
+        android:id="@+id/menu_favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favorite_outline"
+        app:cnb_iconColor="@color/ic_favorite"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"
+        app:cnb_iconColor="@color/ic_settings"/>
+</menu>
