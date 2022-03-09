@@ -3,11 +3,6 @@ version: 2.1
 orbs:
   android: circleci/android@0.2.1
   vulnachecka: whitesource/vulnerability-checker@19.5.5
-
-workflows:
-  test:
-    jobs:
-      - vulnachecka/scan
  
 jobs:
   build:
@@ -41,3 +36,7 @@ jobs:
       - store_artifacts:  
           path: app/build/outputs/apk/debug/
           destination: artifact-file
+      - run:
+          name: Vulnerability Checker
+          command: vulnachecka/scan
+        
