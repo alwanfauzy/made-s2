@@ -36,7 +36,8 @@ jobs:
       - store_artifacts:  
           path: app/build/outputs/apk/debug/
           destination: artifact-file
-      - run:
-          name: Vulnerability Checker
-          command: vulnachecka/scan
-        
+
+workflows:
+  test:
+    jobs:
+      - vulnachecka/scan
