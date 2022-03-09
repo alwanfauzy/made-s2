@@ -36,7 +36,9 @@ jobs:
       - store_artifacts:  
           path: app/build/outputs/apk/debug/
           destination: artifact-file
-  test:
-    executor: java
-    steps:
+
+workflows:
+  my_workflow:
+    jobs:
       - vulnachecka/scan
+      - build
