@@ -38,11 +38,5 @@ jobs:
           destination: artifact-file
   test:
     executor: java
-    parameters:
-      directory:
-        description: directory to scan.
-        type: string
-        default: "."
     steps:
-      - checkout
       - vulnachecka/scan
