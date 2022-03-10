@@ -9,7 +9,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.alwan.made1"
+        applicationId "com.alwan.made2"
         minSdk 23
         targetSdk 32
         versionCode 1
@@ -20,7 +20,11 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -38,6 +42,7 @@ android {
 }
 
 dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation project(":core")
 
     // SpinKit
@@ -47,5 +52,6 @@ dependencies {
     implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
 
     // Toasty
-    implementation 'com.github.GrenderG:Toasty:1.5.2'
+    implementation 'io.github.shashank02051997:FancyToast:2.0.1'
+
 }

@@ -16,4 +16,6 @@
     <color name="ic_favorite">#C9379D</color>
     <color name="ic_settings">#1194AA</color>
     <color name="grey">#BEBAB9</color>
+    <color name="shimmer_bg">#DDDDDD</color>
+    <color name="shimmer_fg">#CFCFCF</color>
 </resources>

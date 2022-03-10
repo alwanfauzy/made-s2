@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/menu_discover"
-        android:name="com.alwan.made1.discover.DiscoverFragment"
+        android:name="com.alwan.made2.discover.DiscoverFragment"
         android:label="fragment_discover"
         tools:layout="@layout/fragment_discover" />
 
     <fragment
         android:id="@+id/menu_favorite"
-        android:name="com.alwan.made1.favorite.favorite.FavoriteFragment"
+        android:name="com.alwan.made2.favorite.favorite.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
 
     <fragment
         android:id="@+id/menu_settings"
-        android:name="com.alwan.made1.setting.SettingFragment"
+        android:name="com.alwan.made2.setting.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" />
 

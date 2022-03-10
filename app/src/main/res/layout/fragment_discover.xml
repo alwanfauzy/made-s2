@@ -10,21 +10,43 @@
         android:id="@+id/rv_discover"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/item_anime" />
 
-    <ImageView
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        app:shimmer_demo_shimmer_color="@color/shimmer_fg"
+        android:id="@+id/rv_discover_shimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/item_anime_placeholder"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shimmer_demo_angle="20"
+        app:shimmer_demo_child_count="10"
+        app:shimmer_demo_grid_child_count="2"
+        app:shimmer_demo_layout="@layout/item_anime_placeholder"
+        app:shimmer_demo_layout_manager_type="grid" />
+
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/img_start_search"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:contentDescription="@string/image_start_search"
-        android:src="@drawable/ic_start_search"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.43"
-        app:tint="@color/black" />
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="paperplane.json"
+        app:lottie_loop="true" />
+
 
     <TextView
         android:id="@+id/tv_start_search"
@@ -63,17 +85,5 @@
         app:layout_constraintEnd_toEndOf="@+id/img_not_found"
         app:layout_constraintStart_toStartOf="@+id/img_not_found"
         app:layout_constraintTop_toBottomOf="@+id/img_not_found" />
-
-    <com.github.ybq.android.spinkit.SpinKitView
-        android:id="@+id/spin_main"
-        style="@style/SpinKitView.CubeGrid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        app:SpinKit_Color="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
