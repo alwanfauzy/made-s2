@@ -78,11 +78,11 @@ class DetailActivity : AppCompatActivity() {
                             binding.imgPosterDetail.loadImage(anime.posterImage?.original)
                             binding.imgCoverDetail.loadImage(anime.coverImage?.original)
                             binding.tvPopularityDetail.text =
-                                getString(R.string.popularity_rank, anime.popularityRank)
+                                getString(R.string.popularity_rank, anime.popularityRank.toString())
                             binding.tvFavoriteCountDetail.text =
                                 anime.favoritesCount?.toString() ?: "-"
                             binding.tvEpisodeDetail.text =
-                                getString(R.string.episode_count, anime.episodeCount)
+                                getString(R.string.episode_count, anime.episodeCount.toString())
                             binding.tvAverageRatingDetail.text = anime.averageRating ?: "-"
                             binding.tvUserCountDetail.text = anime.userCount?.toString() ?: "-"
                             binding.tvStatusDetail.text = anime.status ?: "-"
